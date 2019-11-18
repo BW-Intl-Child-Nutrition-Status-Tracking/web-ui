@@ -310,3 +310,29 @@ footer .email {
   width: 100%;
   letter-spacing: 2px;
 }
+.team {
+  background-color: #CCD3D6;
+  max-width: 100%;
+  height: 450px;
+  margin: 9% 10%;
+  border-radius: 20px;
+}
+.team .tl {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  width: 50%;
+}
+.team .tl img {
+  margin-top: 5%;
+  max-width: 20%;
+  max-height: 20%;
+}
+.team .tl p {
+  font-family: 'Poppins', sans-serif;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3%;
+  padding-right: 3%;
+}
