@@ -190,12 +190,37 @@ table {
   background-color: #33495D;
   color: white;
 }
-header .header-img {
+header .header-container {
   margin-top: 5%;
   width: 100%;
   position: relative;
+  text-align: center;
+  color: #33495D;
+  font-family: 'Poppins', sans-serif;
 }
-header .header-img img {
+header .header-container img {
   width: 100%;
   height: auto;
+  opacity: 0.5;
+}
+header .header-container h1 {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  right: 25%;
+  font-size: 3rem;
+}
+header .header-container .p1 {
+  position: absolute;
+  top: 32%;
+  left: 12%;
+  right: 12%;
+  font-size: 1.5rem;
+}
+header .header-container .p2 {
+  position: absolute;
+  top: 70%;
+  left: 12%;
+  right: 12%;
+  font-size: 1rem;
 }
