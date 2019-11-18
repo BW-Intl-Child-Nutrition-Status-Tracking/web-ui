@@ -147,6 +147,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  max-width: 1200px;
+}
 .menu {
   display: flex;
   justify-content: space-around;
@@ -168,14 +171,32 @@ table {
   color: #79ADCD;
   letter-spacing: 3px;
 }
+.menu nav a:hover {
+  color: #33495D;
+}
 .menu nav span {
   color: #79ADCD;
   letter-spacing: 5px;
 }
 .menu button {
+  font-family: 'Poppins', sans-serif;
   padding: 1.2% 7% 1.2% 7%;
   border-radius: 30px;
   border-style: none;
   border: 2px solid #33495D;
   background-color: white;
+  color: #33495D;
+}
+.menu button:hover {
+  border-color: white;
+  background-color: #33495D;
+  color: white;
+}
+header .header-img {
+  margin-top: 5%;
+}
+header .header-img img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
 }

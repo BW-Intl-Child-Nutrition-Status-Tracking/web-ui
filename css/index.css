@@ -162,6 +162,7 @@ table {
   font-family: 'Poppins', sans-serif;
   width: 33.3%;
   padding-top: 2%;
+  text-align: center;
 }
 .menu nav a {
   text-decoration: none;
@@ -188,4 +189,13 @@ table {
   border-color: white;
   background-color: #33495D;
   color: white;
+}
+header .header-img {
+  margin-top: 5%;
+  width: 100%;
+  position: relative;
+}
+header .header-img img {
+  width: 100%;
+  height: auto;
 }
