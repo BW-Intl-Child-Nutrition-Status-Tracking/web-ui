@@ -237,7 +237,6 @@ header .header-container .p2 {
   width: 100%;
   height: 500px;
   margin-top: 0;
-  pointer-events: none;
 }
 .info1 {
   display: flex;
