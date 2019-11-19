@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin-top: 5%;
+
+    .logo{
+        font-family: @special-font;
+        font-size: 2rem;
+        color: @dark-blue;
+    }
+
+
+    nav {
+        font-family: @main-font;
+        width: 33.3%;
+        padding-top: 2%;
+        text-align: center;
+        margin-left: 10%;
+        a{
+            text-decoration: none;
+            color: @light-blue;
+            //margin: 0 1.5% 0 1.5%;
+            letter-spacing: 3px;
+            &:hover {
+                color: @dark-blue;
+            }
+        }
+        span{
+            color: @light-blue;
+            letter-spacing: 5px;
+        }
+    }
+
+    button{ 
+        font-family: @main-font;
+        padding: 1.2% 7% 1.2% 7%;
+        border-radius: 30px;    
+        border-style: none;
+        border: 2px solid @dark-blue;
+        background-color: white; 
+        color: @dark-blue;
+
+        span{
+            min-width:5%;
+        }
+        &:hover {
+            border-color: white;
+            background-color: @dark-blue;
+            color: white;
+        }
+    }
+   
+}

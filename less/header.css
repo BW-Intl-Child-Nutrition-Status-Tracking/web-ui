@@ -1,0 +1,10 @@
+header .header-img {
+  margin-top: 5%;
+  width: 100%;
+  position: relative;
+}
+header .header-img img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Vibur';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Vibur'), url(https://fonts.gstatic.com/s/vibur/v10/DPEiYwmEzw0QRgTuJD4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Vibur';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Vibur'), url(https://fonts.gstatic.com/s/vibur/v10/DPEiYwmEzw0QRgTuJD4.ttf) format('truetype');
+}
