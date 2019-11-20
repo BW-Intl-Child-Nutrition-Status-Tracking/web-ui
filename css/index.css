@@ -147,6 +147,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0px auto;
+}
 .menu {
   display: flex;
   justify-content: space-around;
