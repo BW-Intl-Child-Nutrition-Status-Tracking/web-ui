@@ -310,3 +310,56 @@ footer .email {
   width: 100%;
   letter-spacing: 2px;
 }
+.team {
+  background-color: #CCD3D6;
+  max-width: 100%;
+  height: 700px;
+  margin: 9% 10%;
+  border-radius: 20px;
+  box-shadow: 5px 10px #33495D;
+}
+.team .first-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.team .first-row .tl {
+  width: 50%;
+  text-align: center;
+  padding: 9%;
+}
+.team .first-row .tl img {
+  text-align: center;
+}
+.team .first-row .tl p {
+  font-family: 'Poppins', sans-serif;
+  margin-right: auto;
+  text-align: center;
+}
+.team .first-row .backend {
+  padding: 9%;
+  width: 50%;
+  text-align: center;
+}
+.team .first-row .backend p {
+  font-family: 'Poppins', sans-serif;
+  margin-right: auto;
+  text-align: center;
+}
+.team .react-dev-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+  width: 100%;
+}
+.team .react-dev-wrapper .react-devs {
+  width: 33.3%;
+  padding: 3%;
+}
+.team .react-dev-wrapper .react-devs img {
+  text-align: center;
+}
+.team .react-dev-wrapper .react-devs p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
