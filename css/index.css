@@ -288,6 +288,11 @@ header .header-container .p2 {
   margin: 0;
   padding: 0;
 }
+.webgl p {
+  font-family: 'Poppins', sans-serif;
+  margin: 2%;
+  color: #33495D;
+}
 .webgl iframe {
   width: 100%;
   height: 500px;
