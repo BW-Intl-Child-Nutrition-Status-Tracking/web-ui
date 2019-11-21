@@ -1,9 +1,23 @@
 @font-face {
-  font-family: 'Vibur';
+  font-family: 'Gochi Hand';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Vibur'), url(https://fonts.gstatic.com/s/vibur/v10/DPEiYwmEzw0QRgTuJD4.ttf) format('truetype');
+  src: local('Gochi Hand'), local('GochiHand-Regular'), url(https://fonts.gstatic.com/s/gochihand/v10/hES06XlsOjtJsgCkx1Pkfon__g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Neucha'), url(https://fonts.gstatic.com/s/neucha/v11/q5uGsou0JOdh94bfvQlo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rancho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rancho Regular'), local('Rancho-Regular'), url(https://fonts.gstatic.com/s/rancho/v10/46kulbzmXjLaqZRVam_k.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
@@ -166,7 +180,7 @@ table {
   }
 }
 .menu .logo {
-  font-family: 'Vibur', cursive;
+  font-family: 'Neucha', cursive;
   font-size: 2rem;
   color: #33495D;
 }
