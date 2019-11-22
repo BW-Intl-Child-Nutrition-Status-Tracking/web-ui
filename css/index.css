@@ -337,7 +337,6 @@ header .header-container .p2 {
 }
 .info1 .info-text {
   width: 50%;
-  text-align: center;
 }
 @media (max-width: 500px) {
   .info1 .info-text {
