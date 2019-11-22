@@ -183,6 +183,8 @@ table {
   font-family: 'Neucha', cursive;
   font-size: 2rem;
   color: #33495D;
+  cursor: pointer;
+  text-decoration: none;
 }
 @media (max-width: 800px) {
   .menu .logo {
@@ -443,13 +445,27 @@ footer .email {
   height: 700px;
   margin: 9% 10%;
   border-radius: 20px;
-  box-shadow: 5px 10px #33495D;
   height: auto;
+  -webkit-box-shadow: 6px 11px 65px -13px #525252;
+  -moz-box-shadow: 6px 11px 65px -13px #525252;
+  box-shadow: 6px 11px 65px -13px #525252;
+}
+.team .first-p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #33495D;
+  padding: 5%;
+}
+@media (max-width: 500px) {
+  .team .first-p {
+    font-size: 1.5rem;
+  }
 }
 .team .first-row {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-bottom: 5%;
 }
 @media (max-width: 500px) {
   .team .first-row {
@@ -464,11 +480,15 @@ footer .email {
 }
 .team .first-row .tl img {
   text-align: center;
+  width: 100%;
+  height: auto;
+  border-radius: 200px;
 }
 .team .first-row .tl p {
   font-family: 'Poppins', sans-serif;
   margin-right: auto;
   text-align: center;
+  padding-top: 3%;
 }
 @media (max-width: 500px) {
   .team .first-row .tl p {
@@ -484,11 +504,17 @@ footer .email {
   font-family: 'Poppins', sans-serif;
   margin-right: auto;
   text-align: center;
+  padding-top: 3%;
 }
 @media (max-width: 500px) {
   .team .first-row .backend p {
     padding-top: 7%;
   }
+}
+.team .first-row .backend img {
+  width: 100%;
+  height: auto;
+  border-radius: 200px;
 }
 .team .react-dev-wrapper {
   display: flex;
@@ -506,6 +532,7 @@ footer .email {
 .team .react-dev-wrapper .react-devs {
   width: 33.3%;
   padding: 3%;
+  margin-bottom: 5%;
 }
 @media (max-width: 500px) {
   .team .react-dev-wrapper .react-devs {
@@ -514,6 +541,9 @@ footer .email {
 }
 .team .react-dev-wrapper .react-devs img {
   text-align: center;
+  width: 100%;
+  height: auto;
+  border-radius: 200px;
 }
 .team .react-dev-wrapper .react-devs p {
   font-family: 'Poppins', sans-serif;
