@@ -263,7 +263,7 @@ header .header-container h1 {
     font-size: 1.4rem;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   header .header-container h1 {
     font-size: 0.8rem;
   }
@@ -280,7 +280,7 @@ header .header-container .p1 {
     font-size: 1.2rem;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   header .header-container .p1 {
     font-size: 0.6rem;
   }
@@ -292,7 +292,7 @@ header .header-container .p2 {
   right: 12%;
   font-size: 1rem;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   header .header-container .p2 {
     font-size: 0.5rem;
   }
@@ -316,7 +316,7 @@ header .header-container .p2 {
   display: flex;
   width: 100%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info1 {
     flex-direction: column;
   }
@@ -324,7 +324,7 @@ header .header-container .p2 {
 .info1 .info-img {
   width: 50%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info1 .info-img {
     width: 100%;
   }
@@ -337,7 +337,7 @@ header .header-container .p2 {
   width: 50%;
   text-align: center;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info1 .info-text {
     width: 100%;
   }
@@ -348,7 +348,7 @@ header .header-container .p2 {
   padding-top: 5%;
   color: #33495D;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info1 .info-text h1 {
     font-size: 1.5rem;
   }
@@ -368,7 +368,7 @@ header .header-container .p2 {
   display: flex;
   width: 100%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info2 {
     flex-direction: column-reverse;
   }
@@ -377,7 +377,7 @@ header .header-container .p2 {
   width: 50%;
   text-align: center;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info2 .info-text {
     width: 100%;
   }
@@ -388,7 +388,7 @@ header .header-container .p2 {
   padding-top: 5%;
   color: #33495D;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info2 .info-text h1 {
     font-size: 1.5rem;
   }
@@ -407,7 +407,7 @@ header .header-container .p2 {
 .info2 .info-img {
   width: 50%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .info2 .info-img {
     width: 100%;
   }
@@ -426,7 +426,7 @@ footer {
   margin-top: 10%;
   margin-bottom: 5%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   footer {
     text-align: center;
   }
@@ -451,7 +451,7 @@ footer .email {
   justify-content: space-around;
   width: 100%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .team .first-row {
     flex-direction: column;
     align-items: center;
@@ -470,7 +470,7 @@ footer .email {
   margin-right: auto;
   text-align: center;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .team .first-row .tl p {
     padding-top: 7%;
   }
@@ -485,7 +485,7 @@ footer .email {
   margin-right: auto;
   text-align: center;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .team .first-row .backend p {
     padding-top: 7%;
   }
@@ -496,7 +496,7 @@ footer .email {
   margin-top: 7%;
   width: 100%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .team .react-dev-wrapper {
     flex-direction: column;
     align-items: center;
@@ -507,7 +507,7 @@ footer .email {
   width: 33.3%;
   padding: 3%;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .team .react-dev-wrapper .react-devs {
     width: 50%;
   }
@@ -519,7 +519,7 @@ footer .email {
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .team .react-dev-wrapper .react-devs p {
     padding-top: 7%;
   }
