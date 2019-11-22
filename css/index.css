@@ -348,6 +348,7 @@ header .header-container .p2 {
   font-size: 2rem;
   padding-top: 5%;
   color: #33495D;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .info1 .info-text h1 {
@@ -359,6 +360,7 @@ header .header-container .p2 {
   font-size: 1.5rem;
   padding: 6%;
   color: #33495D;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .info1 .info-text p {
